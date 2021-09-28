@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_message_discussion"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_10"
+    android:paddingTop="@dimen/margin_20"
+    android:paddingBottom="@dimen/margin_20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txv_author_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Nome do autor"
+                android:textSize="@dimen/font_size_20" />
+
+            <TextView
+                android:id="@+id/txv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:text="25/03/2019"
+                android:textColor="@color/colorGrayDark"
+                android:textSize="@dimen/font_size_12" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imv_photo_author"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_user" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_messagem_sent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/font_size_15"
+            android:text="Mensagem enviada pelo usuário para a discussão presente no fórum..."/>
+    </LinearLayout>
+
+</LinearLayout>

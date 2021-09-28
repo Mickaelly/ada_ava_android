@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccentBackground"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.NewDiscussionActivity"
+    android:paddingRight="@dimen/margin_5"
+    android:paddingLeft="@dimen/margin_5"
+    android:id="@+id/register_discussion_root"
+    tools:showIn="@layout/activity_new_discussion">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_15"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:text="Título da discussão" />
+
+    <EditText
+        android:id="@+id/edt_title_discussion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex.: Dúvida sobre onStart()"
+        android:textColorHint="@color/colorGray"
+        android:maxLength="30"
+        android:textSize="@dimen/font_size_15" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_15"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:text="Mensagem" />
+
+    <EditText
+        android:id="@+id/edt_message_discussion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:background="@drawable/shape_list_message"
+        android:gravity="top"
+        android:hint="Inicie sua discussão aqui..."
+        android:textColorHint="@color/colorGray" />
+
+    <Button
+        android:id="@+id/btn_new_discussion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@drawable/shape_buttom"
+        android:text="Iniciar Discussão"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>

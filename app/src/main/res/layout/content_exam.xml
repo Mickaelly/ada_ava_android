@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.ExamActivity"
+    tools:showIn="@layout/activity_exam"
+    android:paddingTop="@dimen/padding_10">
+
+    <ScrollView
+        android:id="@+id/scv_exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10">
+
+            <TextView
+                android:id="@+id/txv_question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insira aqui o texto da primemira questão da avaliação."
+                android:textSize="@dimen/font_size_15"/>
+
+            <EditText
+                android:id="@+id/edt_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escreva aqui a resposta da primeira questão."
+                android:textSize="@dimen/font_size_15"
+                android:textColorHint="@color/colorGray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/txv_question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insira aqui o texto da primemira questão da avaliação."
+                android:textSize="@dimen/font_size_15"/>
+
+            <EditText
+                android:id="@+id/edt_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escreva aqui a resposta da segunda questão."
+                android:textSize="@dimen/font_size_15"
+                android:textColorHint="@color/colorGray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/txv_question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insira aqui o texto da primemira questão da avaliação."
+                android:textSize="@dimen/font_size_15"/>
+
+            <EditText
+                android:id="@+id/edt_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escreva aqui a resposta da terceira questão."
+                android:textSize="@dimen/font_size_15"
+                android:textColorHint="@color/colorGray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/txv_question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insira aqui o texto da primemira questão da avaliação."
+                android:textSize="@dimen/font_size_15"/>
+
+            <EditText
+                android:id="@+id/edt_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escreva aqui a resposta da quarta questão."
+                android:textSize="@dimen/font_size_15"
+                android:textColorHint="@color/colorGray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+            <TextView
+                android:id="@+id/txv_question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insira aqui o texto da primemira questão da avaliação."
+                android:textSize="@dimen/font_size_15"/>
+
+            <EditText
+                android:id="@+id/edt_answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escreva aqui a resposta da quinta questão."
+                android:textSize="@dimen/font_size_15"
+                android:textColorHint="@color/colorGray"
+                android:layout_marginBottom="@dimen/margin_10"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="@dimen/margin_15"/>
+
+    <Button
+        android:id="@+id/btn_send_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_10"
+        android:layout_marginRight="@dimen/padding_10"
+        android:background="@drawable/shape_buttom"
+        android:text="Enviar Respostas"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="@dimen/margin_15"/>
+
+</LinearLayout>

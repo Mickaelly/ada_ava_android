@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Ada_AVA</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_toobar_register_user">Cadastro de Usuário</string>
+    <string name="title_toobar_new_course">Cadastro de Curso</string>
+    <string name="title_toobar_new_classroom">Cadastro de Aula</string>
+    <string name="logo">Aqui você aprende!</string>
+    <string name="title_activity_ligin">LiginActivity</string>
+    <string name="label_user">Usuário</string>
+    <string name="label_user_login">Digite o usuário</string>
+    <string name="label_password">Senha</string>
+    <string name="label_btn_login">Logar</string>
+    <string name="label_btn_new_user">Cadastro</string>
+    <string name="label_btn_new_password">Esqueci a senha</string>
+    <string name="title_activity_register_user">RegisterUserActivity</string>
+    <string name="label_name">Nome</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_hint_name">Ex.: Mickaelly Honorato</string>
+    <string name="label_hint_email">Ex.: exemplo@exemplo.com</string>
+    <string name="label_confirm_password">Confirme a Senha</string>
+    <string name="label_type_user">Tipo de uauário</string>
+    <string name="label_btn_register">Cadastrar</string>
+    <string name="label_btn_update">Atualizar dados</string>
+    <string name="label_new_password">Atualizar senha</string>
+    <string name="label_menu_test">Realizar avaliação</string>
+    <string name="label_menu_new_test">Cadastrar avaliação</string>
+    <string name="label_menu_forum">Fórum</string>
+    <string name="label_menu_remove_course">Excluir curso</string>
+    <string name="label_menu_new_classroom">Cadastrar aula</string>
+    <string name="title_home">Cursos</string>
+    <string name="title_user_code">Código de usuário</string>
+    <string name="label_hint_user_code">Digite o código de usuário</string>
+    <string name="title_course_presentation">Apresentação de curso</string>
+    <string name="title_new_password_restore">Recuperação de senha</string>
+    <string name="title_new_password">Alteração de senha</string>
+    <string name="title_exam">Realização de avaliação</string>
+    <string name="title_new_discussion">Iniciar discussão</string>
+    <string name="title_profile">Perfil do usuário</string>
+    <string name="btn_new_course">Adicionar curso</string>
+
+    <!-- Mensagens de erro -->
+    <string name="error_register_user">Erro ao registrar usuário.</string>
+    <string name="error_new_password">Erro ao redefinir senha.</string>
+    <string name="error_name">Campo Nome é obrigatório</string>
+    <string name="error_email">Campo E-mail é obrigatório</string>
+    <string name="error_password">Campo Senha é obrigatório</string>
+    <string name="error_confirm_password_null">Campo de Confirmação de Senha é obrigatório</string>
+    <string name="error_confirm_password">As senhas não são compatíveis</string>
+    <string name="error_cod_user">Campo Código de Usuário é obrigatório</string>
+    <string name="error_user_exist">Este usuário já existe.</string>
+    <string name="error_user_not_exist">Este usuário não existe.</string>
+    <string name="error_password_invalid">Senha inválida</string>
+    <string name="error_login">Login e Senha são obrigatórios</string>
+    <string name="error_new_course">Não foi possível adicionar o curso.</string>
+    <string name="error_new_classroom">Não foi possível adicionar a aula.</string>
+    <string name="error_new_classroom_field">Os campos são obrigatórios</string>
+    <string name="error_new_message">Não foi possível enviar a mensagem</string>
+    <string name="error_new_topic">Não foi possível criar o tópico</string>
+    <string name="error_type_user">Tipo de usuário inválido</string>
+
+    <!-- Mensagens de sucesso -->
+    <string name="success_register_user">Usuário cadastrado com sucesso!</string>
+    <string name="success_login">Login realizado com sucesso!</string>
+    <string name="success_new_password">Senha alterada com sucesso!</string>
+    <string name="success_new_course">Curso cadastrado com sucesso!</string>
+    <string name="success_delete_user">Usuário excluído com sucesso!</string>
+    <string name="success_register_classroom">Aula cadastrada com sucesso!</string>
+    <string name="success_register_topic">Tópico cadastrado com sucesso!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_course_presentation">CoursePresentationActivity</string>
+    <string name="title_activity_new_password">NewPasswordActivity</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    <string name="title_activity_forum">ForumActivity</string>
+    <string name="title_activity_discussion">DiscussionActivity</string>
+    <string name="title_activity_new_discussion">NewDiscussionActivity</string>
+    <string name="title_activity_new_course">NewCourseActivity</string>
+    <string name="title_activity_new_classroom">NewClassroomActivity</string>
+</resources>

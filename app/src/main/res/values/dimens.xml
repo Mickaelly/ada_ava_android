@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="image_25">25dp</dimen>
+
+    <!-- Margin size !-->
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+
+
+    <!-- Font Size !-->
+    <dimen name="font_size_12">12dp</dimen>
+    <dimen name="font_size_15">15dp</dimen>
+    <dimen name="font_size_18">18dp</dimen>
+    <dimen name="font_size_20">20dp</dimen>
+</resources>

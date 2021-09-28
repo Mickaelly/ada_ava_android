@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.NewCourseActivity"
+    android:orientation="vertical"
+    android:layout_marginRight="@dimen/margin_20"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:layout_marginTop="@dimen/margin_20"
+    android:id="@+id/register_course_root"
+    tools:showIn="@layout/activity_new_course">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:text="Nome"/>
+
+    <EditText
+        android:id="@+id/edt_name_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:text="Tipo"/>
+
+    <Spinner
+        android:id="@+id/spn_type_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20"/>
+
+    <Button
+        android:id="@+id/btn_new_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Curso"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/shape_buttom"/>
+
+</LinearLayout>

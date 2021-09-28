@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.RegisterUserActivity"
+    android:background="@color/colorAccentBackground"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_20"
+    android:paddingRight="@dimen/padding_20"
+    tools:showIn="@layout/activity_register_user"
+    android:id="@+id/register_user_root">
+
+    <TextView
+        android:id="@+id/txv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_18"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/label_name"/>
+
+    <EditText
+        android:id="@+id/edt_name_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorGray"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:maxLength="25"
+        android:hint="@string/label_hint_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_18"
+        android:text="@string/label_email"/>
+
+    <EditText
+        android:id="@+id/edt_email_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorGray"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:hint="@string/label_hint_email"/>
+
+    <TextView
+        android:id="@+id/txv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_18"
+        android:text="@string/label_password"/>
+
+    <EditText
+        android:id="@+id/edt_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorGray"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:hint="******"/>
+
+    <TextView
+        android:id="@+id/txv_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_18"
+        android:text="@string/label_confirm_password"/>
+
+    <EditText
+        android:id="@+id/edt_password_confirm_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorGray"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:inputType="textPassword"
+        android:hint="******"/>
+
+    <TextView
+        android:id="@+id/txv_type_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_18"
+        android:text="@string/title_user_code"/>
+
+    <Spinner
+        android:id="@+id/spn_type_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_10"/>
+
+    <Button
+        android:id="@+id/btn_register_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_buttom"
+        android:text="@string/label_btn_register"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_delete_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_buttom"
+        android:text="Excluir usuário"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>
